@@ -39,7 +39,7 @@ class schedule extends Command
     public function handle()
     {
         ExportController::exportFile();
-        $this->info('Your schedule is exported in storage/app/costumers');
+        $this->info('Your schedule is exported in storage/app/schedule');
     }
 }
     
